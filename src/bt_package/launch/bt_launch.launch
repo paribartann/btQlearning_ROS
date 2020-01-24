@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+
+
+
+<!-- <launch>
+   
+     <group ns="uav1">
+        <node pkg="bt_package"
+           type="tree_node"
+           name = "uav1_tree_node" output="screen">
+           <param name="name_space" value="/uav1" />
+           <param name="file_location" value="/home/research/Desktop/trial_workspace/src/bt_package/files/BT_Fig8" />
+           <param name="waypoints" value="/home/research/Desktop/trial_workspace/src/bt_package/files/waypoints1" />
+      </node>
+
+  </group>
+
+</launch> -->
+
+<launch>
+   
+      <group ns="uav1">
+
+     <node pkg="bt_package"
+           type="tree_node"
+           name = "uav1_tree_node" output="screen">
+           <param name="name_space" value="/uav1" />
+           <param name="file_location" value="/home/research/Desktop/trial_workspace/src/bt_package/files/BT_Fig8" />
+           <param name="waypoints" value="/home/research/Desktop/trial_workspace/src/bt_package/files/waypoints1" />
+      </node>
+
+   </group>
+
+   <group ns="uav2">
+     
+     <node pkg="bt_package"
+           type="tree_node"
+           name = "uav2_tree_node" output="screen">
+           <param name="name_space" value="/uav2" />
+           <param name="file_location" value="/home/research/Desktop/trial_workspace/src/bt_package/files/BT_Fig8" />
+           <param name="waypoints" value="/home/research/Desktop/trial_workspace/src/bt_package/files/waypoints2" />
+     </node>
+   </group>
+ 
+</launch>
+

@@ -1,0 +1,2 @@
+bt_package
+-DCATKIN_DEVEL_PREFIX=/home/research/Desktop/trial_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/research/Desktop/trial_workspace/install -G Unix Makefiles

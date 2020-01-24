@@ -1,0 +1,10 @@
+OR 3
+- AND 4
+-- t 0
+-- ANDM 2
+--- GC 0
+--- DC 0
+-- ANDM 0
+-- GD 0
+- AND 0
+- GB 0

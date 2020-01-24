@@ -1,0 +1,10 @@
+OR 2
+- AND 2
+-- C-seeTarget 0
+-- A-endEpisode 0
+- LORM 5
+-- A-rotate 0
+-- A-elevate 0
+-- A-rotate 0
+-- A-deElevate 0
+-- A-waypointTranslation 0

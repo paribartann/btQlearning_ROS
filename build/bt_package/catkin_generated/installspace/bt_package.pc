@@ -1,0 +1,8 @@
+prefix=/home/research/Desktop/trial_workspace/install
+
+Name: bt_package
+Description: Description of bt_package
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/research/Desktop/trial_workspace/install/lib 
+Requires: 
